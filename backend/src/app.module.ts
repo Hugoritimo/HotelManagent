@@ -10,9 +10,9 @@ import { AuthModule } from './auth/auth.module';
       type: 'postgres',
       host: 'localhost', // ou o host do seu container
       port: 5432,
-      username: 'seu_usuario',
-      password: 'sua_senha',
-      database: 'hotel_management',
+      username: 'postgres',
+      password: 'password',
+      database: 'postgres',
       autoLoadEntities: true,
       synchronize: true, // NÃO use em produção 
     }),
